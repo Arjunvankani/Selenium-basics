@@ -1,0 +1,90 @@
+{
+  "id": "0f8368f9-dc5c-42ea-ad25-dcb751744421",
+  "version": "2.0",
+  "name": "GoogleSearch",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "1dacf8fa-2071-4286-bb4a-890eeca177e1",
+    "name": "Test1",
+    "commands": [{
+      "id": "f2a724a5-cd8f-4060-9e45-123065c65b30",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f790090-1dfb-445e-9dc1-038943419e5b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1078x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da04ae56-5abf-4433-83be-8c0ca51cbdd3",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7b268b7-c222-4bf4-918e-d92057f65cf8",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Machine Learning"
+    }, {
+      "id": "9efe78f5-960e-4112-a08c-7d9ce4cb9a0d",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "ca5f3df0-d16a-4805-b61f-2245fd354a15",
+      "comment": "",
+      "command": "click",
+      "target": "css=.g:nth-child(3) > div > .tF2Cxc .LC20lb",
+      "targets": [
+        ["css=.g:nth-child(3) > div > .tF2Cxc .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div[3]/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Machine Learning: What it is and why it matters | SAS India')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8d8d544-4bd4-454f-aa8c-ba566566fca4",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "dbd7ed4d-3aa4-4ef8-89af-4b56402ab8f1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1dacf8fa-2071-4286-bb4a-890eeca177e1"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}

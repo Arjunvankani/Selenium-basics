@@ -1,0 +1,189 @@
+{
+  "id": "8e67d1f2-73d2-4ae6-bd1b-d5f7269a4cfe",
+  "version": "2.0",
+  "name": "Login",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "6f594575-b8d6-42fc-9eb0-663d3ee4671c",
+    "name": "Test1",
+    "commands": [{
+      "id": "743c2b02-1664-426e-8331-2929c5e696b6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2e4808c-9a94-4927-9164-4111186731f6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1078x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2f0b7743-2bb9-41e3-a14b-84d575762743",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39d54d94-69e5-4c15-85fc-c2923ed73a01",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "udemy login"
+    }, {
+      "id": "b1066c30-9458-4eb1-ae00-abb97146c61c",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "83822563-8475-4c26-822d-86a0aae1bc9c",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > .tF2Cxc .LC20lb",
+      "targets": [
+        ["css=div:nth-child(2) > .tF2Cxc .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Login | Udemy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "db36745a-0b84-4dbb-92dc-501698a39846",
+      "comment": "",
+      "command": "click",
+      "target": "id=email--1",
+      "targets": [
+        ["id=email--1", "id"],
+        ["name=email", "name"],
+        ["css=#email--1", "css:finder"],
+        ["xpath=//input[@id='email--1']", "xpath:attributes"],
+        ["xpath=//div[@id='form-item-email']/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "29564987-2264-45e6-b9a3-417ae812f4f9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Continue with Facebook",
+      "targets": [
+        ["linkText=Continue with Facebook", "linkText"],
+        ["css=.facebook-auth--social-btn--facebook--3SDC_", "css:finder"],
+        ["xpath=//a[contains(text(),'Continue with Facebook')]", "xpath:link"],
+        ["xpath=//body[@id='udemy']/div/div[2]/div/div[3]/span/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[253]", "xpath:href"],
+        ["xpath=//span/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Continue with Facebook')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0737cc4a-0260-4d30-80df-726efd1d6d29",
+      "comment": "",
+      "command": "click",
+      "target": "id=email--1",
+      "targets": [
+        ["id=email--1", "id"],
+        ["name=email", "name"],
+        ["css=#email--1", "css:finder"],
+        ["xpath=//input[@id='email--1']", "xpath:attributes"],
+        ["xpath=//div[@id='form-item-email']/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41b5ff07-89d1-4e69-bc13-8236a6e409f0",
+      "comment": "",
+      "command": "type",
+      "target": "id=email--1",
+      "targets": [
+        ["id=email--1", "id"],
+        ["name=email", "name"],
+        ["css=#email--1", "css:finder"],
+        ["xpath=//input[@id='email--1']", "xpath:attributes"],
+        ["xpath=//div[@id='form-item-email']/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "abc@test"
+    }, {
+      "id": "84341de4-ab39-480d-8e30-072b0a48ac7b",
+      "comment": "",
+      "command": "click",
+      "target": "id=id_password",
+      "targets": [
+        ["id=id_password", "id"],
+        ["name=password", "name"],
+        ["css=#id_password", "css:finder"],
+        ["xpath=//input[@id='id_password']", "xpath:attributes"],
+        ["xpath=//div[@id='tooltip-reference-password']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cca1d79-42de-4549-9fee-eb8006366de7",
+      "comment": "",
+      "command": "type",
+      "target": "id=id_password",
+      "targets": [
+        ["id=id_password", "id"],
+        ["name=password", "name"],
+        ["css=#id_password", "css:finder"],
+        ["xpath=//input[@id='id_password']", "xpath:attributes"],
+        ["xpath=//div[@id='tooltip-reference-password']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "d205e8d4-7abc-407a-abf7-3540f98e8445",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-id-submit",
+      "targets": [
+        ["id=submit-id-submit", "id"],
+        ["name=submit", "name"],
+        ["css=#submit-id-submit", "css:finder"],
+        ["xpath=//input[@id='submit-id-submit']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d055bf42-f330-4f26-a56b-6435599b3c83",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "da9d13ef-125a-421d-bdfc-ed668aaa9a0b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6f594575-b8d6-42fc-9eb0-663d3ee4671c"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
